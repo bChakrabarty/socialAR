@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AS1mgJL/////AAABmVO4I572FknFiLlSyTZ5uZs0GONp8D1PeI5j1CSEyAuvUYv3mLJGlsTKs/AwgTV9vXUESdCBHdFDTUImHm5eZ4SvVuWynlUaHlocCK2qNAoMHNc3p59ov5v+SA1Hj54IYMf+vQyHexIXs2D8YI9GWTvyVP4N9VtchKjeLWajjRVLxlUhSNQ+kLE02hxSaGU1u0xxtqoHKTEWYLoTAli8GEPX5n4DGY5zxMnVJK8vK/dC4b4Cs2Y+YAAC1o1gcmbdAjPQ5QK8qvuRJn7jrxoxq2WyoTg9Z6keSwJ9HnOY6A1KXLdtUZe/tA3AA4SYVSUQ65MqTQvwg8mtYkKcoZgau3hlb/McdYZbdsNkP3kYRpS+
+    ufoLicenseKey: QVdyRXJ2Ly8vLy8vQUFBQUtGUFRSNDc5VTArcWxxVHBUNXNkTXk0eWpoT3BQWWNIalhZRXpleGh2cVIzNnVxZGxhSDZUZzFkejNYVmZuU0ZlS0xQVWRFNTdLQk9SV1dQOXhpbk9FVjlwWVNneHBMODYveE9kalE4RkYvQk54S2hnaTdRcTFvbXpaSVUzUW5yZkh3V1BYWjdyVWRyUUtmNk1GcUxYWjdETUVlS1pnZDRxRXpmUHZmaDIrOWsrdzJXL3JuditTSnpibERJTXZCK1E4UzNGZUt3aDhvWDJKOWxoVHIxR09Ga0wrbTcvbG1OSXZYdjhMUG0vOWFOM0dxQmlVUTlUUDVKL3kzZGFPMlc5YkhhdTZMWnVpd1FzNEpFUnhQTC9zZnEzSHFwSFRreHJDY2IrdlJVK0JNZG94NUpjbGlGTGRieUMydGxsU0RjUW9rVDV2amZ0eXRyQUlvQ0ZYL2ZJQlVqMVBhdUlBKzhRTnJTZlhvbXU5RVI=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 4
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    version: 10.7.2
+    eulaAcceptedVersions: '{"Values":["","0.0","10.3","8.3","7.1","8.1","10.7"]}'
+  database:
+    disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mSequencePath: C:/Users/Biswa/Downloads/20220511_103852_HoloLens.mp4
+    playModeType: 2
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
