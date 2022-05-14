@@ -624,11 +624,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Vuforia.Engine.HoloLens
   metroPackageVersion: 10.3.2.0
-  metroCertificatePath: Assets/WSATestCertificate.pfx
+  metroCertificatePath: 
   metroCertificatePassword: 
-  metroCertificateSubject: PTC Inc.
-  metroCertificateIssuer: PTC Inc.
-  metroCertificateNotAfter: 80a8fd455366d801
+  metroCertificateSubject: 
+  metroCertificateIssuer: 
+  metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: ImageTargets, ModelTargets, and VuMarks on HoloLens
   wsaImages:
     65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png

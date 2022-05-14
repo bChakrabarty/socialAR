@@ -16,7 +16,7 @@ MonoBehaviour:
   useManagerScene: 1
   managerScene:
     Name: main
-    Path: Assets/main.unity
+    Path: Assets/Scenes/main.unity
     Included: 1
     BuildIndex: 0
     Tag: Untagged
